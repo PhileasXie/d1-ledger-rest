@@ -10,15 +10,15 @@
     "d1_databases": [
         {
           "binding": "DB",
-          "database_name": "d1-rest",
-          "database_id": "01a469e7-a826-485c-9b72-5c69ac371005"
+          "database_name": "ledger",
+          "database_id": "5e17dd5f-d721-4b0b-b27c-39f3935e32dd"
         }
     ],
     "secrets_store_secrets": [
         {
-            "store_id": "<YOUR-STORE-ID>",
+            "store_id": "cd9f89d7516f41168f06c75fb7ffefee",
             "binding": "SECRET",
-            "secret_name": "<YOUR-SECRET-NAME>"
+            "secret_name": "d1-ledger"
         }
     ],
 	"observability": {
